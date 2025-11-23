@@ -1,0 +1,237 @@
+Ejercicio1
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingrese su nombre de usuario: ");
+        string nombreUsuario = Console.ReadLine();
+        Console.WriteLine("El nombre de usuario es: " + nombreUsuario);
+    }
+}
+
+
+
+Ejercicio2
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Ingrese su edad: ");
+        string edad = Console.ReadLine();
+        Console.WriteLine("Su edad es: " + edad);
+    }
+}
+
+
+
+Ejercicio3
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine ("Ingrese su nombre: ");
+        string nombre = Console.ReadLine();
+        Console.WriteLine ("Ingrese su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+        Console.WriteLine ("Ingrese su direccion: ");
+        string direccion = Console.ReadLine();
+        Console.WriteLine ("Ingrese su email: ");
+        string email = Console.ReadLine();
+        Console.WriteLine("Su nombre es : " + nombre + " tiene " + edad + " años, vive en " + direccion + " y su correo es " + email);
+    }
+}
+
+
+
+Ejercicio4
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numerador = Math.Pow(2 + 4, 2);
+        double denominador = Math.Pow(4 * 8, 3);
+
+        double resultado = numerador / denominador;
+
+        Console.WriteLine("El resultado es: " + resultado);
+    }
+}
+
+
+
+Ejercicio5
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numero = Math.Max(5, 10);
+        
+        Console.WriteLine("El resultado es: " + numero);
+    }
+}
+
+
+
+Ejercicio6
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numero = Math.Min(5, 10);
+        
+        Console.WriteLine("El resultado es: " + numero);
+    }
+}
+
+
+
+Ejercicio7
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numero = Math.Sqrt(64);
+        
+        Console.WriteLine("El resultado es: " + numero);
+    }
+}
+
+
+
+Ejercicio8
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numero = Math.Abs(-4.7);
+        
+        Console.WriteLine("El resultado es: " + numero);
+    }
+}
+
+
+
+Ejercicio9
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numero = Math.Round(9.99);
+        
+        Console.WriteLine("El resultado es: " + numero);
+    }
+}
+
+
+
+Ejercicio10
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double numerador = Math.Pow(2 + 4, 2);
+        double denominador = Math.Pow(4 * 8, 3);
+
+        double resultado = numerador / denominador;
+        
+        double resultadoRedondeado = Math.Round(resultado, 4);
+
+        Console.WriteLine("El resultado redondeado es: " + resultadoRedondeado);
+    }
+}
+
+
+
+Ejercicio11
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+        Console.WriteLine("La longitud de la cadena txt es: " + txt.Length);
+    }
+}
+
+
+
+Ejercicio12
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese su nombre: ");
+        string nombre = Console.ReadLine();
+
+        Console.WriteLine("Ingrese su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Ingrese su direccion: ");
+        string direccion = Console.ReadLine();
+
+        Console.WriteLine("Ingrese su email: ");
+        string email = Console.ReadLine();
+        
+        int longitudDireccion = direccion.Length;
+
+        Console.WriteLine("Su nombre es: " + nombre + 
+                          ", tiene " + edad + " años, vive en " + direccion + 
+                          " (longitud de la dirección: " + longitudDireccion + " caracteres)" +
+                          " y su correo es " + email);
+    }
+}
+
+
+
+Ejercicio13
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese su nombre: ");
+        string nombre = Console.ReadLine();
+
+        Console.WriteLine("Ingrese su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Ingrese su direccion: ");
+        string direccion = Console.ReadLine();
+
+        Console.WriteLine("Ingrese su email: ");
+        string email = Console.ReadLine();
+        
+        int longitudDireccion = direccion.Length;
+        string nombreMayus = nombre.ToUpper();
+        string emailMinus = email.ToLower();
+
+        Console.WriteLine("Su nombre es: " + nombreMayus +
+                          ", tiene " + edad + " años, vive en " + direccion + 
+                          " (longitud de la dirección: " + longitudDireccion + " caracteres)" + " y su correo es " + emailMinus);
+    }
+}
