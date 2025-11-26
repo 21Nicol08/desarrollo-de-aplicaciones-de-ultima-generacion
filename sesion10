@@ -1,0 +1,85 @@
+ejercicio1
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Ingresa un numero: ");
+        int dia = int.Parse(Console.ReadLine());
+        
+        switch (dia)
+        {
+            case 1:
+            Console.WriteLine("Lunes");
+            break;
+            
+            case 2:
+            Console.WriteLine("Martes");
+            break;
+            
+            case 3:
+            Console.WriteLine("Miercoles");
+            break;
+            
+            case 4:
+            Console.WriteLine("Jueves");
+            break;
+            
+            case 5:
+            Console.WriteLine("Viernes");
+            break;
+            
+            case 6:
+            Console.WriteLine("Sabado");
+            break;
+            
+            case 7:
+            Console.WriteLine("Domingo");
+            break;
+        }
+    }
+}
+
+
+
+ejercicio2
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Ingresa un numero: ");
+        int dia = int.Parse(Console.ReadLine());
+        
+        switch (dia)
+        {
+            case 1:
+            Console.WriteLine("Hoy es Lunes");
+            break;
+            
+            case 2:
+            Console.WriteLine("Hoy es Martes");
+            break;
+            
+            case 3:
+            Console.WriteLine("Hoy es Miercoles");
+            break;
+            
+            case 4:
+            Console.WriteLine("Hoy es Jueves");
+            break;
+            
+            case 5:
+            Console.WriteLine("Hoy es Viernes");
+            break;
+            
+            case 6:
+            Console.WriteLine("Esperando con ansias el fin de semana");
+            break;
+        }
+    }
+}
